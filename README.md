@@ -114,14 +114,14 @@ base_path = '.'                  # locally
 
 - This is the main notebook which serves as the central hub for all the results presented in the report. To enhance clarity and maintain modular code, we've also included a helper file (`helpers.py`) that houses various functions used in `main.ipynb`.
 
-**The main structure of the notebook is as follows:** 
+The main structure of the notebook is as follows:
 
 1. **Parameters Initialization**
 2. **Idea 1: Uniqueness of Information through TF-IDF**
 3. **Speaker Diarization Error Rate (SDER)**
 4. **Idea 2: Speaking Time Concentration**
 5. **Negative Binomial Regression as Prediction Model**
-6. **Classification for Supervised Learning (k-NN & GBC)**
+6. **Features Importance trough Random Forest Classification**
 7. **Appendix: Gaussian Mixture Model (GMM)**
 
 Feel free to navigate through the sections to explore specific analyses and findings. 🚀

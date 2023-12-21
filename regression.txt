@@ -1,0 +1,231 @@
+Running regression for X_1:
+Optimization terminated successfully.
+         Current function value: 2.774478
+         Iterations: 29
+         Function evaluations: 31
+         Gradient evaluations: 31
+Dependent Variable: number_ideas
+Independent Variables: ['const', 'team_members', 'exp_breadth', 'exp_depth', 'team_spirit', 'task_duration', 'startup_age', 'startup_ind_32', 'startup_ind_33', 'startup_ind_42', 'startup_ind_44', 'startup_ind_45', 'startup_ind_51', 'startup_ind_52', 'startup_ind_54', 'startup_ind_62', 'startup_ind_71', 'startup_ind_72']
+                     NegativeBinomial Regression Results                      
+==============================================================================
+Dep. Variable:           number_ideas   No. Observations:                  114
+Model:               NegativeBinomial   Df Residuals:                       96
+Method:                           MLE   Df Model:                           17
+Date:                Mon, 18 Dec 2023   Pseudo R-squ.:                 0.03750
+Time:                        21:41:01   Log-Likelihood:                -316.29
+converged:                       True   LL-Null:                       -328.61
+Covariance Type:            nonrobust   LLR p-value:                    0.1029
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              1.8462      0.239      7.721      0.000       1.378       2.315
+team_members       0.5729      0.179      3.200      0.001       0.222       0.924
+exp_breadth       -0.1026      0.181     -0.568      0.570      -0.457       0.252
+exp_depth         -0.0678      0.213     -0.319      0.750      -0.485       0.349
+team_spirit       -0.0667      0.078     -0.857      0.391      -0.219       0.086
+task_duration      0.5118      0.294      1.740      0.082      -0.065       1.088
+startup_age        0.2692      0.196      1.370      0.171      -0.116       0.654
+startup_ind_32     0.8631      0.392      2.201      0.028       0.094       1.632
+startup_ind_33     0.2910      0.240      1.210      0.226      -0.180       0.762
+startup_ind_42     0.3682      0.267      1.379      0.168      -0.155       0.892
+startup_ind_44     0.7485      0.397      1.885      0.059      -0.030       1.527
+startup_ind_45     0.3705      0.439      0.844      0.398      -0.489       1.230
+startup_ind_51     0.3893      0.220      1.766      0.077      -0.043       0.821
+startup_ind_52     0.4530      0.269      1.685      0.092      -0.074       0.980
+startup_ind_54     0.2419      0.222      1.091      0.275      -0.193       0.676
+startup_ind_62     0.4869      0.296      1.645      0.100      -0.093       1.067
+startup_ind_71     0.1597      0.273      0.585      0.559      -0.376       0.695
+startup_ind_72     0.1219      0.275      0.444      0.657      -0.417       0.661
+alpha              0.0425      0.018      2.347      0.019       0.007       0.078
+==================================================================================
+AIC: 670.5809533598488
+BIC: 688.5252939640111
+
+================================================================================
+
+Running regression for X_2:
+Optimization terminated successfully.
+         Current function value: 2.768664
+         Iterations: 30
+         Function evaluations: 32
+         Gradient evaluations: 32
+Dependent Variable: number_ideas
+Independent Variables: ['const', 'team_members', 'exp_breadth', 'exp_depth', 'team_spirit', 'task_duration', 'startup_age', 'startup_ind_32', 'startup_ind_33', 'startup_ind_42', 'startup_ind_44', 'startup_ind_45', 'startup_ind_51', 'startup_ind_52', 'startup_ind_54', 'startup_ind_62', 'startup_ind_71', 'startup_ind_72', 'tf_idf_2']
+                     NegativeBinomial Regression Results                      
+==============================================================================
+Dep. Variable:           number_ideas   No. Observations:                  114
+Model:               NegativeBinomial   Df Residuals:                       95
+Method:                           MLE   Df Model:                           18
+Date:                Mon, 18 Dec 2023   Pseudo R-squ.:                 0.03952
+Time:                        21:41:01   Log-Likelihood:                -315.63
+converged:                       True   LL-Null:                       -328.61
+Covariance Type:            nonrobust   LLR p-value:                    0.1004
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              1.8505      0.238      7.783      0.000       1.385       2.316
+team_members       0.6060      0.180      3.363      0.001       0.253       0.959
+exp_breadth       -0.1155      0.180     -0.641      0.521      -0.468       0.237
+exp_depth         -0.0965      0.213     -0.453      0.650      -0.514       0.321
+team_spirit       -0.0686      0.077     -0.887      0.375      -0.220       0.083
+task_duration      0.4519      0.296      1.525      0.127      -0.129       1.033
+startup_age        0.2684      0.195      1.375      0.169      -0.114       0.651
+startup_ind_32     0.8543      0.390      2.193      0.028       0.091       1.618
+startup_ind_33     0.2831      0.239      1.183      0.237      -0.186       0.752
+startup_ind_42     0.3685      0.266      1.387      0.165      -0.152       0.889
+startup_ind_44     0.7296      0.395      1.849      0.065      -0.044       1.503
+startup_ind_45     0.3833      0.436      0.878      0.380      -0.472       1.239
+startup_ind_51     0.3680      0.220      1.672      0.095      -0.063       0.799
+startup_ind_52     0.4353      0.268      1.626      0.104      -0.089       0.960
+startup_ind_54     0.2219      0.221      1.003      0.316      -0.212       0.656
+startup_ind_62     0.4715      0.295      1.601      0.109      -0.106       1.049
+startup_ind_71     0.1425      0.272      0.523      0.601      -0.391       0.676
+startup_ind_72     0.1104      0.274      0.403      0.687      -0.426       0.647
+tf_idf_2           0.3778      0.325      1.162      0.245      -0.259       1.015
+alpha              0.0408      0.018      2.282      0.022       0.006       0.076
+==================================================================================
+AIC: 671.2554867973088
+BIC: 691.1701322683886
+
+================================================================================
+
+Running regression for X_3:
+Optimization terminated successfully.
+         Current function value: 2.754714
+         Iterations: 34
+         Function evaluations: 36
+         Gradient evaluations: 36
+Dependent Variable: number_ideas
+Independent Variables: ['const', 'team_members', 'exp_breadth', 'exp_depth', 'team_spirit', 'task_duration', 'startup_age', 'startup_ind_32', 'startup_ind_33', 'startup_ind_42', 'startup_ind_44', 'startup_ind_45', 'startup_ind_51', 'startup_ind_52', 'startup_ind_54', 'startup_ind_62', 'startup_ind_71', 'startup_ind_72', 'skewness']
+                     NegativeBinomial Regression Results                      
+==============================================================================
+Dep. Variable:           number_ideas   No. Observations:                  114
+Model:               NegativeBinomial   Df Residuals:                       95
+Method:                           MLE   Df Model:                           18
+Date:                Mon, 18 Dec 2023   Pseudo R-squ.:                 0.04436
+Time:                        21:41:01   Log-Likelihood:                -314.04
+converged:                       True   LL-Null:                       -328.61
+Covariance Type:            nonrobust   LLR p-value:                   0.04653
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              2.4196      0.358      6.763      0.000       1.718       3.121
+team_members       0.6149      0.177      3.472      0.001       0.268       0.962
+exp_breadth       -0.1093      0.178     -0.615      0.539      -0.457       0.239
+exp_depth         -0.1077      0.211     -0.511      0.610      -0.521       0.306
+team_spirit       -0.0453      0.077     -0.585      0.559      -0.197       0.106
+task_duration      0.5807      0.292      1.990      0.047       0.009       1.152
+startup_age        0.3125      0.195      1.603      0.109      -0.069       0.694
+startup_ind_32     0.9918      0.391      2.538      0.011       0.226       1.758
+startup_ind_33     0.1699      0.245      0.695      0.487      -0.309       0.649
+startup_ind_42     0.2305      0.272      0.848      0.396      -0.302       0.763
+startup_ind_44     0.5251      0.405      1.298      0.194      -0.268       1.318
+startup_ind_45     0.3990      0.433      0.921      0.357      -0.450       1.248
+startup_ind_51     0.2607      0.226      1.153      0.249      -0.183       0.704
+startup_ind_52     0.2284      0.286      0.799      0.424      -0.332       0.789
+startup_ind_54     0.1005      0.229      0.439      0.661      -0.349       0.550
+startup_ind_62     0.4158      0.294      1.413      0.158      -0.161       0.992
+startup_ind_71     0.0396      0.276      0.144      0.886      -0.501       0.580
+startup_ind_72     0.0062      0.277      0.022      0.982      -0.537       0.550
+skewness          -0.2705      0.127     -2.124      0.034      -0.520      -0.021
+alpha              0.0387      0.017      2.225      0.026       0.005       0.073
+==================================================================================
+AIC: 668.0747669692371
+BIC: 687.9894124403169
+
+================================================================================
+
+Running regression for X_4:
+         Current function value: 2.764433
+         Iterations: 35
+         Function evaluations: 37
+         Gradient evaluations: 37
+Dependent Variable: number_ideas
+Independent Variables: ['const', 'team_members', 'exp_breadth', 'exp_depth', 'team_spirit', 'task_duration', 'startup_age', 'startup_ind_32', 'startup_ind_33', 'startup_ind_42', 'startup_ind_44', 'startup_ind_45', 'startup_ind_51', 'startup_ind_52', 'startup_ind_54', 'startup_ind_62', 'startup_ind_71', 'startup_ind_72', 'dominance', 'dominance_square']
+                     NegativeBinomial Regression Results                      
+==============================================================================
+Dep. Variable:           number_ideas   No. Observations:                  114
+Model:               NegativeBinomial   Df Residuals:                       94
+Method:                           MLE   Df Model:                           19
+Date:                Mon, 18 Dec 2023   Pseudo R-squ.:                 0.04099
+Time:                        21:41:01   Log-Likelihood:                -315.15
+converged:                      False   LL-Null:                       -328.61
+Covariance Type:            nonrobust   LLR p-value:                    0.1061
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                1.8273      0.238      7.689      0.000       1.362       2.293
+team_members         0.5674      0.178      3.179      0.001       0.218       0.917
+exp_breadth         -0.1185      0.180     -0.660      0.509      -0.470       0.233
+exp_depth           -0.0654      0.210     -0.311      0.756      -0.478       0.347
+team_spirit         -0.0593      0.077     -0.766      0.443      -0.211       0.092
+task_duration        0.3779      0.304      1.243      0.214      -0.218       0.974
+startup_age          0.2308      0.196      1.179      0.238      -0.153       0.614
+startup_ind_32       0.8413      0.387      2.172      0.030       0.082       1.600
+startup_ind_33       0.2097      0.244      0.859      0.390      -0.269       0.688
+startup_ind_42       0.2846      0.270      1.054      0.292      -0.245       0.814
+startup_ind_44       0.7368      0.392      1.879      0.060      -0.032       1.505
+startup_ind_45       0.3371      0.435      0.776      0.438      -0.515       1.189
+startup_ind_51       0.3043      0.225      1.350      0.177      -0.137       0.746
+startup_ind_52       0.3403      0.276      1.233      0.218      -0.201       0.881
+startup_ind_54       0.1775      0.224      0.793      0.428      -0.261       0.616
+startup_ind_62       0.4357      0.295      1.478      0.139      -0.142       1.013
+startup_ind_71       0.0983      0.274      0.359      0.720      -0.438       0.635
+startup_ind_72       0.0281      0.279      0.101      0.920      -0.519       0.576
+dominance            0.8598      0.641      1.341      0.180      -0.397       2.117
+dominance_square    -0.7692      0.818     -0.940      0.347      -2.372       0.834
+alpha                0.0392      0.018      2.211      0.027       0.004       0.074
+====================================================================================
+AIC: 672.2907194668243
+BIC: 694.2256906590162
+
+================================================================================
+
+Running regression for X_5:
+         Current function value: 2.744763
+         Iterations: 35
+         Function evaluations: 37
+         Gradient evaluations: 37
+Dependent Variable: number_ideas
+Independent Variables: ['const', 'team_members', 'exp_breadth', 'exp_depth', 'team_spirit', 'task_duration', 'startup_age', 'startup_ind_32', 'startup_ind_33', 'startup_ind_42', 'startup_ind_44', 'startup_ind_45', 'startup_ind_51', 'startup_ind_52', 'startup_ind_54', 'startup_ind_62', 'startup_ind_71', 'startup_ind_72', 'tf_idf_2', 'skewness', 'dominance', 'dominance_square']
+                     NegativeBinomial Regression Results                      
+==============================================================================
+Dep. Variable:           number_ideas   No. Observations:                  114
+Model:               NegativeBinomial   Df Residuals:                       92
+Method:                           MLE   Df Model:                           21
+Date:                Mon, 18 Dec 2023   Pseudo R-squ.:                 0.04781
+Time:                        21:41:01   Log-Likelihood:                -312.90
+converged:                      False   LL-Null:                       -328.61
+Covariance Type:            nonrobust   LLR p-value:                   0.06690
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                2.3718      0.356      6.657      0.000       1.674       3.070
+team_members         0.6165      0.179      3.449      0.001       0.266       0.967
+exp_breadth         -0.1261      0.177     -0.714      0.475      -0.472       0.220
+exp_depth           -0.1126      0.210     -0.537      0.591      -0.523       0.298
+team_spirit         -0.0413      0.077     -0.535      0.592      -0.192       0.110
+task_duration        0.4415      0.303      1.459      0.145      -0.152       1.034
+startup_age          0.2761      0.194      1.422      0.155      -0.105       0.657
+startup_ind_32       0.9596      0.386      2.487      0.013       0.203       1.716
+startup_ind_33       0.1018      0.248      0.410      0.682      -0.385       0.589
+startup_ind_42       0.1650      0.276      0.599      0.549      -0.375       0.705
+startup_ind_44       0.5178      0.400      1.295      0.195      -0.266       1.301
+startup_ind_45       0.3700      0.429      0.861      0.389      -0.472       1.212
+startup_ind_51       0.1855      0.231      0.805      0.421      -0.266       0.637
+startup_ind_52       0.1370      0.292      0.469      0.639      -0.436       0.710
+startup_ind_54       0.0450      0.231      0.195      0.845      -0.407       0.497
+startup_ind_62       0.3681      0.293      1.257      0.209      -0.206       0.942
+startup_ind_71      -0.0138      0.276     -0.050      0.960      -0.554       0.527
+startup_ind_72      -0.0756      0.282     -0.268      0.789      -0.629       0.477
+tf_idf_2             0.1399      0.342      0.409      0.682      -0.530       0.810
+skewness            -0.2551      0.128     -2.000      0.046      -0.505      -0.005
+dominance            0.7648      0.665      1.150      0.250      -0.539       2.068
+dominance_square    -0.7232      0.832     -0.869      0.385      -2.354       0.908
+alpha                0.0354      0.017      2.083      0.037       0.002       0.069
+====================================================================================
+AIC: 671.8059467927504
+BIC: 697.9223137591209
+
+================================================================================
+
