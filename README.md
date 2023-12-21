@@ -6,11 +6,11 @@
 
 ## Abstract 📝
 
-- This study explores the factors that influence venture teams' ability to identify new opportunities in the context of emerging technologies. By utilizing a multimodal dataset and applying machine learning techniques, we introduce three novel metrics and find *skewness* as the best.
+- This study explores the factors that influence venture teams' ability to identify new opportunities in the context of emerging technologies. By utilizing a multimodal dataset and applying machine learning techniques, we introduce three novel metrics and find **skewness** as the best.
 
-- We employ *WhisperX* to improve the quality of audio transcription and diarization. Compared to previous models like *Pyannote* and *Deepgram*, *WhisperX* has improved speaker diarization error rates (**SDER**) performance by 9% without margin and by 28% with a margin of 1, indicating a significant enhancement in the accuracy of capturing team dialogues.
+- We employ **WhisperX** to improve the quality of audio transcription and diarization. Compared to previous models like **Pyannote** and **Deepgram**, **WhisperX** has improved speaker diarization error rates (**SDER**) performance by **9%** without margin and by **28%** with a margin of 1, indicating a significant enhancement in the accuracy of capturing team dialogues.
 
-- Furthermore, we introduce three novel metrics: *Tf-idf*, *skewness*, *dominance* (along with its squared version) and utilize a Negative Binomial Regression model to predict the number of opportunities identified by these teams. We find that Model 3 with metric *skewness* achieves the lowest AIC 668.075, and metric *skewness* is the most significant coefficient (*p* = 0.034, *β* = -0.271), indicating that a larger quantity of long continuous speaking time helps develop a more in-depth investigation of ideas and generate more ideas. The random forest model affirms this finding.
+- Furthermore, we introduce three novel metrics: **Tf-idf**, **skewness**, **dominance** (along with its squared version) and utilize a **Negative Binomial Regression model** to predict the number of opportunities identified by these teams. We find that Model 3 with metric **skewness** achieves the lowest **AIC** 668.075, and metric **skewness** is the most significant coefficient (**p** = 0.034, **β** = -0.271), indicating that a larger quantity of long continuous speaking time helps develop a more in-depth investigation of ideas and generate more ideas. **The random forest model** affirms this finding.
 
 
 ## Setup ⚙️
