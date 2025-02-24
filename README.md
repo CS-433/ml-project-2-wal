@@ -2,8 +2,6 @@
 
 *Authors : Alessio Desogus, Haoyu Wen and Jiewei Li*
 
-> **_🔔 IMPORTANT NOTE:_** Per agreement with the [ENTC](https://www.epfl.ch/labs/entc/) supervisor of this project, *Dr. Davide Bavato*, a non-disclosure agreement (NDA) has been signed. Therefore, for maximum confidentiality, we will only provide the smaller amount of data possible in this repository. However, if it is **strictly necessary** for grading purposes, we could find a way to provide them.
-
 ## Abstract 📝
 
 - This study explores the factors that influence venture teams' ability to identify new opportunities in the context of emerging technologies. By utilizing a multimodal dataset and applying machine learning techniques, we introduce three novel metrics and find **skewness** as the best.
